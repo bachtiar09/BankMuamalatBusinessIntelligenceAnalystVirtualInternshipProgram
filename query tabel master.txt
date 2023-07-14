@@ -1,0 +1,12 @@
+tool : google bigquery
+
+SELECT o.Date, pc.CategoryName, p.ProdName, p.Price, o.Quantity, (o.Quantity*p.Price) as TotalSales,
+       c.CustomerEmail, c.CustomerCity
+FROM `Final_Task.Orders` as o
+LEFT JOIN `Final_Task.Customers` as c
+    ON o.CustomerID = c.CustomerID
+LEFT JOIN `Final_Task.Products` as p
+    ON p.ProdNumber = o.ProdNumber
+LEFT JOIN `Final_Task.ProductCategory` as pc
+    ON pc.CategoryID = p.Category
+ORDER BY o.Date ASC;
