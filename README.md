@@ -1,1 +1,2 @@
 # BankMuamalatBusinessIntelligenceAnalystVirtualInternshipProgram
+VIX Bank Muamalat Business Intelligence Analyst Virtual Internship Program selenggarakan oleh Rakamin Academy dan Kimia Farma. pada progam ini peserta akan belajar bagaimana memecahkan masalah dan mengerjakan project yang sesuai dengan kegiatan perusahaan Kimia Farma. Progam ini berjalan semala 4 minggu dimana di final project adalah membuat dasboard.
